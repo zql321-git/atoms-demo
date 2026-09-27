@@ -1,0 +1,30 @@
+{
+    "title": "page_versions",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "primary_key": true,
+            "autoincrement": true
+        },
+        "user_id": {
+            "type": "string"
+        },
+        "version_no": {
+            "type": "integer"
+        },
+        "prompt": {
+            "type": "string"
+        },
+        "html": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "version_no",
+        "prompt",
+        "html"
+    ]
+}
